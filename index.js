@@ -117,7 +117,7 @@ app.post("/callback", (req, res) => {
            var _results = JSON.parse(response);
            /* where it will come back after payment*/
           //  res.redirect(`http://localhost:3000/viewBooking?status=${_results.STATUS}&ORDERID=${_results.ORDERID}&date=${_results.TXNDATE}&bank=${_results.BANKNAME}`)
-           res.redirect(`https://brewmusefspk.netlify.app/viewBooking?status=${_results.STATUS}&ORDERID=${_results.ORDERID}&date=${_results.TXNDATE}&bank=${_results.BANKNAME}`)
+           res.redirect(`https://brewmusee.netlify.app/viewBooking?status=${_results.STATUS}&ORDERID=${_results.ORDERID}&date=${_results.TXNDATE}&bank=${_results.BANKNAME}`)
            });
        });
 
